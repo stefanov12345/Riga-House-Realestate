@@ -1,85 +1,89 @@
-.hero-wrapper {
-  color: white;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 2rem;
-  /* background-color: var(--black); */
-  max-width: 1400px;
-  margin: 0 auto;
+.hero-wrapper{
+    color:white;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 2rem;
+    /* background-color: var(--black); */
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .hero-container {
-  justify-content: space-between;
-  align-items: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }
-/* Leftside  */
-.hero-left {
-  gap: 3rem;
+  /* Leftside  */
+.hero-left{
+    gap:3rem;
 }
 
-.hero-title {
-  position: relative;
-  z-index: 1;
+.hero-title{
+    position: relative;
+    z-index:1;
 }
-.hero-title > h1 {
-  font-weight: 600;
-  font-size: 3.8rem;
-  line-height: 4rem;
+.hero-title>h1{
+font-weight: 600;
+font-size: 3.8rem;
+line-height: 4rem;
 }
 /* Bola colorina */
 /* ----------------------------- */
-.orange-circle {
-  height: 4rem;
-  width: 4rem;
-  background: var(--orange-gradient);
-  border-radius: 999px;
-  position: absolute;
-  right: 29%;
-  top: -10%;
-  z-index: -1;
+.orange-circle{
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position:absolute;
+    right: 29%;
+    top: -10%;
+    z-index: -1;
 }
 
-.search-bar {
-  background-color: white;
-  border-radius: 5px;
-  border: 3px solid rgba(120, 120, 120, 0.375);
-  padding: 0.5rem 1rem;
-  justify-content: space-between;
-  width: 100%;
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120,120,120,0.375);
+    padding:  0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.search-bar > input {
-  border: none;
-  outline: none;
+.search-bar> input{
+    border: none;
+    outline: none;
 }
 
 .stats {
-  width: 110%;
-  justify-content: space-between;
-  /* justify-content: space-around;
+    width:110%;
+    justify-content: space-between;
+    /* justify-content: space-around;
     display: flex; */
 }
 
-.stat > :nth-child(1) {
-  font-size: 2rem;
+.stat>:nth-child(1)
+{
+    font-size: 2rem;
 }
-.stat > :nth-child(1) > :last-child {
-  color: orange;
-}
+.stat>:nth-child(1)>:last-child
+{
+   color: orange;
+}  
 
 /* -----
 /* ----------------------------- */
 /* right side */
 
-.images-container {
-  width: 30rem;
-  height: 35rem;
-  overflow: hidden;
-  border-radius: 15rem 15rem 0 0;
-  border: 8px solid rgba(255, 255, 255, 0.12);
+.images-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255,255,255,0.12)
+
 }
 
-.images-container > img {
-  width: 100%;
-  height: 100%;
+.images-container>img{
+    width:100%;
+    height:100%;
 }
