@@ -4,6 +4,8 @@
     z-index: 1;
     padding-bottom: 2rem;
     /* background-color: var(--black); */
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .hero-container {
