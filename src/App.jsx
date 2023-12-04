@@ -3,6 +3,10 @@ import Hero from './components/Hero/Hero';
 import './App.css'
 import Companies from './components/Companies/Companies'
 import Residencies from './components/Residencies/Residencies'
+import Valuex from "./components/Value/Valuex";
+import Contact from "./components/Contact/Contact"
+import GetStarted from './components/GetStartetd/GetStarted';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
    <div className="App">
@@ -13,6 +17,10 @@ function App() {
     </div>
     <Companies/>
     <Residencies/>
+   <Valuex/>
+   <Contact/>
+   <GetStarted/>
+   <Footer/>
    </div>
   );
 }
